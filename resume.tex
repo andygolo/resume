@@ -1,0 +1,306 @@
+
+%-------------------------
+% Resume in 
+% Author : Andrey Golovanov
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.90in}
+\addtolength{\textheight}{1.8in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+%\definecolor{blue_head}{HTML}{0047AB}  % Define a color using a HEX code
+%\definecolor{blue_egypt}{HTML}{0096FF}  % Define a color using a HEX code
+\definecolor{blue_egypt}{HTML}{000000} 
+\definecolor{blue_head}{HTML}{000000}
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-4pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \color{blue_egypt}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=2pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \vspace{-10pt} % moves the entire block up
+    {\Huge \scshape Andrey Golovanov} \\[2pt] % pulls name closer to next line
+    {\normalsize \raisebox{-0.1\height}\faGlobe\ United States Citizen} \\[2pt]
+    \small 
+    \raisebox{-0.1\height}\faPhone\ 425-635-8514 ~ 
+    \href{mailto:andreygolovanov@hotmail.com}{
+        \raisebox{-0.2\height}\faEnvelope\ \underline{andreygolovanov@hotmail.com}
+    } ~ 
+    \href{https://linkedin.com/in/andygolo}{
+        \raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/andygolo}
+    } ~
+    \href{https://github.com/andygolo}{
+        \raisebox{-0.2\height}\faGithub\ \underline{github.com/andygolo}
+    } 
+        \vspace{-10pt}
+\end{center}
+%-----------EDUCATION-----------
+\section{\color{blue_head}Education}
+  \resumeSubHeadingListStart
+     \vspace{0pt}
+
+    \resumeSubheading
+      {University of Waterloo, Waterloo, ON}{April 2026}
+      {Bachelor of Applied Science in Computer Engineering}{Ontario, Canada}
+  \resumeSubHeadingListEnd
+   \vspace{-10pt}
+
+ 
+%------RELEVANT COURSEWORK-------
+% \section{\color{blue_head}Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Algorithms and Data Structures
+%                 \item RTOS programming
+%                 \item  Computer Networks
+%                 \item Embedded Systems
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%                 \item Compilers
+%                 \item Fundamentals of Programming
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{4.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\color{blue_head}Experience}
+  \resumeSubHeadingListStart
+\resumeSubheading
+    {Virtek Vision International}{September 2025 -- December 2025}
+    {Software Developer Intern}{Waterloo, Ontario}
+\resumeItemListStart
+    \resumeItem{Engineered and optimized a \textbf{C\# localization framework} for laser projection software, enabling accurate multilingual UI rendering and regional configuration.}
+    \resumeItem{Built a reusable \textbf{DataGrid} and a separate \textbf{module-level injection mechanism}, allowing features such as sorting and deletion to be added without core code changes.}
+    \resumeItem{Shaped architectural decisions around \textbf{model loading}, improving runtime module management.}
+\resumeItemListEnd
+% Injection design: each ConfigItem can be individually overridden at build/runtime in .NET 8.0
+% while keeping the original .NET 4.8 implementation intact for dependent products.
+    \resumeSubheading
+        {RMUS Canada}{January 2025 -- August 2025}
+        {Software Developer Intern }{Mississauga, Ontario}
+         \resumeItemListStart
+        \resumeItem{Achieved \textbf{300\% improvement} in real-time point cloud rendering by migrating to \textbf{OpenGL} and optimizing shaders, multithreading, and frustum culling.}
+\resumeItem{Cut \textbf{Leica LiDAR} bandwidth by \textbf{70\%} via \textbf{delta encoding}, \textbf{LZ4 compression}, and \textbf{clustering}.}
+\resumeItem{Built a real-time \textbf{dynamic/static octree} in \textbf{PCL} managing \textbf{1M+ points} on resource-constrained systems.}
+\resumeItem{Developed and deployed \textbf{cross-platform control and visualization tools} for \textbf{Boston Dynamics Spot} using \textbf{CMake} and \textbf{Docker}, targeting \textbf{Windows}, \textbf{Linux}, and \textbf{Android}.}
+        \resumeItemListEnd
+\resumeSubheading
+  {Dell Technologies}{January 2024 -- April 2024}
+  {Software Developer Intern}{Ottawa, Ontario}
+  \resumeItemListStart
+    \resumeItem{Built critical logging infrastructure for \textbf{5G ORAN} in a \textbf{large-scale C++ codebase}, improving observability by \textbf{25\%} and reducing debugging time by \textbf{15\%}.}
+    \resumeItem{Adapted a \textbf{Python} ASN.1 simulator for \textbf{3GPP} messages, verifying accuracy and reliability.}
+    \resumeItem{Delivered a \textbf{live demo} to 80+ engineers, showcasing integration capabilities and practical use cases.}
+    \resumeItem{Led \textbf{Agile ceremonies} including daily stand-ups, sprint planning, retrospectives, and backlog refinement.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Ford Motor Company}{September 2022 -- December 2022}
+  {Software Developer Intern}{Kanata, Ontario}
+  \resumeItemListStart
+    \resumeItem{Achieved \textbf{90\% test coverage} in \textbf{C++} using \textbf{GTest} and mocking techniques.}
+    \resumeItem{Independently mastered \textbf{OpenSSL}, \textbf{GNU Make}, and \textbf{CI/CD} within two weeks, accelerating delivery.}
+    \resumeItem{Configured \textbf{Jenkins} for automated testing and wrote \textbf{Bash scripts} on \textbf{Linux}, saving ~\textbf{2 hours/week}.}
+  \resumeItemListEnd
+    
+    % \resumeSubheading
+    %   {WE Accelerate-Microsoft}{January 2022 -- April 2022}
+    %   {Microsoft AI Accessibility Project}{Remote Project}
+    %   \resumeItemListStart
+    %     \resumeItem{Mastered\textbf{ Microsoft AI/ML and Azure} through comprehensive training, completing courses on \textbf{Machine Learning}, \textbf{Recognition Machines}, \textbf{Training Modules and Datasets}, \textbf{Microsoft Azure Storage}, and \textbf{Security Services}, earning certification in \textbf{Microsoft AI/Azure}.  }
+    %     \resumeItem{Contributed to research on accessibility solutions for people with disabilities, using Microsoft AI tools and collaborating with a multidisciplinary team to explore potential innovations. }
+    %     \resumeItem{Collaborated effectively in a diverse team, utilizing strong communication skills to share ideas and support the project’s development. }
+    % \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{\color{blue_head}Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+    {\textbf{\color{blue_egypt}Real-Time Operating Systems Kernel} $|$ \emph{C, STM32IDE}}{August 2024}
+    \resumeItemListStart
+      \resumeItem{Developed a \textbf{real-time OS kernel} for STM32 Nucleo F401RE, supporting preemptive multitasking.}
+      \resumeItem{Integrated \textbf{dynamic memory management} via the buddy system, enabling flexible task allocation.}
+      \resumeItem{Designed and implemented an \textbf{Earliest Deadline First (EDF) scheduler} to meet real-time requirements.}
+    \resumeItemListEnd
+    \vspace{-14pt}
+\resumeProjectHeading
+    {\textbf{\color{blue_egypt}Hot-Swappable Yield-Aware Dynamic Reconfiguration Architecture} $|$ \emph{C, FPGA}}{May 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{\textbf{Awarded Technical Excellence Award (2026)} for engineering a custom Linux Kernel Module enabling hot-swappable bitstreams with \textbf{80ms reconfiguration latency}.}
+      \resumeItem{Developed the \textbf{core kernel} for the HYDRA FPGA runtime, allowing hardware logic to be managed as dynamic software tasks via CLI commands.}
+      \resumeItem{Architected \textbf{Python integration} support, enabling high-level dynamic hardware accelerator management.}
+    \resumeItemListEnd
+    \vspace{-13pt}
+      % \resumeProjectHeading
+      %     {\textbf{\color{blue_egypt}Cloud-Based Server Deployment } $|$ \emph{Azure services, Linux}}{July 2023}
+      %     \resumeItemListStart
+          % \resumeItem{Deployed \textbf{Azure services,} including capacity planning for a Linux VM optimized for power, performance, and cost, supporting a real-time game streaming server with \textbf{25} participants. }
+          %   \resumeItem{Utilized SSH, Azure Portal, and shell (Bash) for deploying and configuring Linux system services.}
+          %   \resumeItem{Developed health monitoring scripts for periodic checks and scheduled restarts of the deployed application. }
+          % \resumeItemListEnd 
+          % \vspace{-9pt}
+    \resumeSubHeadingListEnd
+\vspace{-4pt}
+\section{\color{blue_head}Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, C\#, Java, Python, VHDL, Verilog} \\
+     \textbf{Developer Tools}{: Visual Studio, VSCode, Android Studio, GoogleTest, Shell/Bash,VMware, Vivado} \\
+     \textbf{Technologies}{: Linux, STM32, Jenkins, GitHub, Azure, Docker, OpenGL, QT} \\
+    }}
+ \end{itemize}
+\vspace{-10pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{\color{blue_head}Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: C/C++, Java, JavaScript, Python, VHDL, Verilog} \\
+%      \textbf{Developer Tools}{: Visual Studio, VSCode, NetBeans, Slack, Android Studio, Autodesk 360, GoogleTest, Shell Scripts , MobaXterm, VMware, Vivado } \\
+%      \textbf{Technologies}{: Linux, Jenkins, GitHub, GNU Make, Microsoft Azure} \\
+%     }}
+%  \end{itemize}
+%  \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+% \section{\color{blue_head}Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+
+
+     % \resumeProjectHeading
+     %      {\textbf{\color{blue_egypt}Cloud-Based Server Deployment } $|$ \emph{Azure services, Linux}}{July 2023}
+     %      \resumeItemListStart
+% \resumeItem{Deployed \textbf{Azure services,} including capacity planning for a Linux VM optimized for power, performance, and cost, supporting a real-time game streaming server with \textbf{25} participants. }
+          %   \resumeItem{Utilized SSH, Azure Portal, and shell (Bash) for deploying and configuring Linux system services.}
+          %   \resumeItem{Developed health monitoring scripts for periodic checks and scheduled restarts of the deployed application. }
+          % \resumeItemListEnd 
+          % \vspace{-9pt}
+
+\end{document}
